@@ -151,12 +151,13 @@ body {
     position: relative;
     inset: 0;
     background: rgba(255, 255, 255, 0.1);
-    transition: 0.3s;
+    transition: background 0.3s;
     opacity: 0;
 }
 
 .cta-button a:hover::after {
-    opacity: 1;
+    /* opacity: 1; */
+    transform: scale(1.5);
 
 }
 .img {
